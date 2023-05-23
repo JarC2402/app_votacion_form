@@ -3,8 +3,8 @@
 <p class="has-line-data" data-line-start="0" data-line-end="1">Requisitos del sistema:</p>
 <ul>
 <li class="has-line-data" data-line-start="1" data-line-end="2">PHP 7.2 o superior</li>
-<li class="has-line-data" data-line-start="2" data-line-end="3">Servidor web (como Apache)</li>
-<li class="has-line-data" data-line-start="3" data-line-end="5">PostgreSQL</li>
+<li class="has-line-data" data-line-start="2" data-line-end="3">Servidor web</li>
+<li class="has-line-data" data-line-start="3" data-line-end="5">PostgreSQL 15</li>
 </ul>
 </li>
 <li class="has-line-data" data-line-start="5" data-line-end="9">

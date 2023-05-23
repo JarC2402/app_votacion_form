@@ -3,7 +3,7 @@ Instrucciones de instalación:
 1. Requisitos del sistema:
    - PHP 7.2 o superior
    - Servidor web 
-   - PostgreSQL
+   - PostgreSQL 15
    - en mi caso use XAMPP para correr la base de datos junto con el proyecto
 
 2. Configuración de la base de datos:
