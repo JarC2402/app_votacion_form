@@ -1,0 +1,28 @@
+Instrucciones de instalación:
+
+1. Requisitos del sistema:
+   - PHP 7.2 o superior
+   - Servidor web (como Apache)
+   - PostgreSQL
+
+2. Configuración de la base de datos:
+   - Crea una nueva base de datos en PostgreSQL llamada "nombre_base_datos"
+   - Importa el archivo SQL ubicado en la carpeta "SQL" para crear las tablas y cargar los datos iniciales
+
+3. Configuración del proyecto:
+   - Copia todos los archivos del proyecto en la carpeta pública de tu servidor web (por ejemplo, htdocs en Apache)
+
+4. Instalación de dependencias:
+   - Abre una terminal en la carpeta raíz del proyecto
+   - Ejecuta el siguiente comando para instalar las dependencias:
+     composer install
+
+5. Configuración de variables de entorno:
+   - Renombra el archivo .env.example a .env
+   - Abre el archivo .env y configura las variables de entorno, como la conexión a la base de datos
+
+6. Acceso al proyecto:
+   - Abre un navegador web e ingresa la URL correspondiente al proyecto
+
+¡Listo! El proyecto ahora está instalado y listo para usar. Si tienes alguna pregunta o problema durante la instalación, consulta la documentación o comunícate con el soporte técnico.
+
