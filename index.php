@@ -1,3 +1,4 @@
+<!-- este archivo esta la estructura basica de html, donde se verifica que el usuario llene los datos correctamente de ser asi se envia el formunlario de forma correcta -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +10,8 @@
 </head>
 <body>
 <h2>Formulario de votacion</h2>
-    <form class="Form_content" action="form.php" method="post">
-        
+    <form class="Form_content" action="form.php"  method="post">
+    
         <div><label for="name">Nombre y apellido:</label>
         <input type="text" id="name" name="name"placeholder="Nombre completo"></div>
         <div><label for="alias">Alias:</label>
@@ -21,7 +22,7 @@
         <input type="text" id="email" name="email"  placeholder="ejemplo@gmail.com"></div>
         
         <div><label  for="Region">Region:</label>
-                 <select name="region" onchange="loadComunas(this.value);">
+                 <select name="region" id="region" onchange="loadComunas(this.value);">
 
                     <option value="option1">Seleccionar</option>
                     <?php
@@ -48,7 +49,7 @@
         <div>
             <label for="Candidato">Candidato:</label>
             <select name="candidato">
-            <option value="option1">Seleccionar</option>
+            <option value="option1" id="candidato">Seleccionar</option>
             <?php
                 require_once "conexion.php";
                 $objetoConexion = new CConexion();

@@ -1,3 +1,6 @@
+<!-- en resumen este archivo verifica si se ha enviado el formulario, verifica que el voto no este duplicado verificando el rut
+en caso de que sea voto unico procede a guardar la informacion en la base de datos y redirigir a la pag inicial.
+-->
 <?php
 require_once "conexion.php";
 

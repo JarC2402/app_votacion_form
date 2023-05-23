@@ -1,3 +1,7 @@
+<!-- este archivo se realiza una consulta a una base de datos 
+para obtener las comunas de una región específica y devuelve los resultados en formato JSON. 
+con la finalidad de filtrar solo las comunas pertenecientes a la region seleccionada anteriormente
+-->
 <?php
 if (isset($_GET['regionId'])) {
     $regionId = $_GET['regionId'];

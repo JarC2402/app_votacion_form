@@ -1,3 +1,4 @@
+<!-- La función principal de este archivo es encapsular la lógica de conexión a la base de datos en un objeto reutilizable.  -->
 <?php
 class CConexion {
     public function ConexionBD(){
